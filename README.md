@@ -23,7 +23,7 @@ Example:
 ```typescript
 const input = [[9, 12], [11, 13], [14, 17], [16, 18]];
 const output = optimizeBookings(input);
-console.log(optimizedBookings); // Output: [[9, 13], [14, 18]]
+console.log(output); // Output: [[9, 13], [14, 18]]
 ```
 ## Task 2: Hotel Room Service Request API
 ## Overview:
