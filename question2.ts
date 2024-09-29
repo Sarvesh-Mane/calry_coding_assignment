@@ -13,7 +13,7 @@ const PATH = path.join(__dirname, 'requests.json');
 app.post('/requests', (req: Request, res: Response) => {
     const data = readData(); 
     const newReq = req.body; 
-    //console.log("New request received:", newReq); // consoling to check if POST works or not
+    console.log("New request received:", newReq); // consoling to check if POST works or not
 
     newReq.id = Date.now().toString(); ' request id is assigned as the date of issuing the Req'
     //console.log("Assigned new ID:", newReq.id);
@@ -118,7 +118,7 @@ function readData() {
        // console.log("File read successfully:", data);
         return JSON.parse(data); 
     } else {
-        console.log("No data file found, returning an empty array.");
+        //console.log("No data file found, returning an empty array.");
         return [];
     }
 }
