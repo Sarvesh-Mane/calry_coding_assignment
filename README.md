@@ -21,9 +21,8 @@ The function `optimizeBookings` takes an array of meeting times (represented as 
    node meeting-scheduler.js
 Example:
 ```typescript
-Copy code
-const bookings = [[9, 12], [11, 13], [14, 17], [16, 18]];
-const optimizedBookings = optimizeBookings(bookings);
+const input = [[9, 12], [11, 13], [14, 17], [16, 18]];
+const output = optimizeBookings(input);
 console.log(optimizedBookings); // Output: [[9, 13], [14, 18]]
 ```
 ## Task 2: Hotel Room Service Request API
